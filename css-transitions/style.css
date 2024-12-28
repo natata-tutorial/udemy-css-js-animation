@@ -1,0 +1,15 @@
+
+button{
+	all: unset;
+	width: fit-content;
+	height: auto;
+	background: green;
+	color: white;
+	padding: 10px 15px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+button:hover{
+	background-color: blue;
+}
